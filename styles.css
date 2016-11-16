@@ -14,6 +14,58 @@ p {
 #main-div-2 .kermit {
 	border: 2px dotted purple;
 }
- h2 ~ p {
+ #main-div-2  p {
 	background-color: orange;
 }
+#li-1 {
+	font-size: 30px;
+}
+#li-2 {
+	font-weight: bold;
+}
+#li-3 {
+	text-transform: uppercase;
+}
+#mystery-ul li:nth-child(2n+1) {
+	font-family: 'Mystery Quest',cursive;
+}
+img {
+	width: 200px;
+}
+/*step flexbox */
+#flex-kermit {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+#flex-kermit >img {
+	width: 30%;
+}
+
+/*validation*/
+input:valid {
+	background-color: yellow;
+}
+input:invalid {
+	background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
